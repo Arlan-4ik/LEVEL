@@ -1,0 +1,124 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #111;
+  color: #fff;
+}
+
+/* Сайдбар */
+.sidebar {
+  width: 250px;
+  background-color: #000;
+  padding: 30px 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.search-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-box button {
+  background: #d00;
+  border: none;
+  padding: 8px 12px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-item {
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: transparent;
+  transition: background 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #222;
+}
+
+/* Контент */
+.main-content {
+  flex: 1;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #ccc;
+}
+
+.payment-options {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.payment-card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.payment-card:hover {
+  transform: translateY(-5px);
+}
+
+.payment-card h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.payment-card p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Совет */
+.payment-note {
+  margin-top: 30px;
+  padding: 15px;
+  background: #222;
+  border-left: 4px solid #d00;
+  color: #fff;
+  border-radius: 6px;
+}
